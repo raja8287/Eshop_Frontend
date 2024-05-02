@@ -1,0 +1,74 @@
+#Ad2{
+    background: #ff0000;
+margin:3vh 0vh;
+padding: 1vh;
+overflow-x:hidden;
+
+}
+#Ad2 div{
+    margin: auto;
+    background: greenyellow;
+    display: flex;
+    width: 110%;
+  /*  animation: go 2s alternate infinite;*/
+
+}
+
+#Ad2 div div{
+    background: #B9D9EB;
+    margin: 1vh;
+    display: flex;
+    width: 40%;
+
+
+}
+#Ad2 div div:nth-child(1){
+    width: 40%
+}
+#Ad2 div div:nth-child(1) img{
+    background: transparent;
+    width: 30vh;
+}
+#Ad2 div div:nth-child(2){
+    width: 50%;
+    padding: 0vh 10%;
+    display: inline-block;
+    word-spacing: -0.5vh;
+    line-height: 2vh;
+}
+#Ad2 div div:nth-child(2) h2{
+    text-shadow: 1vh 0vh 1vh slateblue;
+    color: aliceblue;
+    margin: auto;
+    padding: 1vh;
+    margin-top: 1vh;
+    width: 90%;
+    font-size: 5vh;
+}
+#Ad2 div div:nth-child(2) p{
+    margin: auto;
+    font-size: 1.5vh;
+    word-spacing: 0.1vh;
+    line-height: 4vh;
+    width: 50%;
+}
+#Ad2 div div:nth-child(2) p:nth-child(3){
+    font-size: 5vh;
+}
+#Ad2 div div:nth-child(2) button{
+    border: none;
+    margin: 1vh;
+    padding: 1.5vh 4vh;
+    font-size: 1.5vh;
+    font-weight: 800;
+    background: #1E90FF;
+    color: white;
+}
+@keyframes go {
+    0%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

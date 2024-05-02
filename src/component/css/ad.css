@@ -1,0 +1,155 @@
+#Ad{
+   height: 50vh;
+   background: rgb(237, 242, 246);
+   margin-top: 2vh;
+   padding-top: 1vh;
+   animation: st 2s ease-in-out 1;
+
+
+}
+#Ad div{
+
+    margin: auto;
+  /*  background: url('https://favim.com/pd/s6/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif');*/
+  background: url('https://media4.giphy.com/media/TZf4ZyXb0lXXi/giphy.webp?cid=790b7611w58n7o3cnw3jycw18z2tm2w572vfas6ma633hw1q&ep=v1_gifs_search&rid=giphy.webp&ct=g');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 95%;
+height: 85%;
+padding-top: 6vh;
+
+}
+#Ad div h1{
+    font-size: 10vh;
+text-shadow: 1vh 0vh 1vh slateblue;
+    color: aliceblue;
+    font-weight: 900;
+    line-height: -0vh;
+    word-spacing: -1vh;
+    transition: 0.5s ease-in-out ;
+    cursor: pointer;
+
+}
+#Ad div h1:hover{
+    text-shadow: 0.5vh 0vh 1vh slateblue;
+    scale: 1.1;
+    box-shadow: -1vh 2vh 0vh skyblue;
+
+
+}
+
+#Ad div h3{
+    color:#007FFF;
+    text-shadow: -0.4vh 0vh 0vh aliceblue;
+
+    font-size: 5vh;
+    line-height: -20vh;
+    word-spacing: -0.1vh;
+    text-transform: uppercase;
+    letter-spacing: 2vh;
+
+}
+#Ad div p{
+    color: white;
+    text-shadow: 1vh 0vh 1vh slateblue;
+
+    font-size: 3vh;
+    font-weight: 500;
+    word-spacing: 1vh;
+    
+
+}
+
+#Ad div span{
+}
+#Ad div img{
+    width: 25vh;
+    height: 6vh;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+
+}
+#Ad div img:hover{
+    scale: 1.2;
+}
+
+@keyframes st {
+    0%{
+        transform: translateY(100%);
+    }
+  
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #Ad{
+        height: 40vh;
+      /*  background: rgb(237, 242, 246);*/
+        margin-top: 2vh;
+        padding-top: 1vh;
+        animation: st 2s ease-in-out 1;
+     
+     
+     }
+     #Ad div{
+     
+         margin: auto;
+         width: 95%;
+     height: 85%;
+     padding-top: 6vh;
+     
+     }
+     #Ad div h1{
+         font-size: 5vh;
+     text-shadow: 1vh 0vh 1vh slateblue;
+         color: aliceblue;
+         font-weight: 900;
+         line-height: -0vh;
+         word-spacing: -1vh;
+         
+     
+     }
+     #Ad div h1:hover{
+         text-shadow: 0.5vh 0vh 1vh slateblue;
+         scale: 1;
+         box-shadow: -1vh 2vh 0vh skyblue;
+     
+     
+     }
+     
+     #Ad div h3{
+         color:#007FFF;
+         text-shadow: 0.15vh 0vh 0vh aliceblue;
+     
+         font-size: 2vh;
+         line-height: -20vh;
+         word-spacing: -0.1vh;
+         text-transform: uppercase;
+         letter-spacing: 2vh;
+     
+     }
+     #Ad div p{
+         color: white;
+         text-shadow: 1vh 0vh 1vh slateblue;
+     
+         font-size: 1vh;
+         font-weight: 500;
+         word-spacing: 1vh;
+         
+     
+     }
+     
+     #Ad div span{
+     }
+     #Ad div img{
+         width: 25vh;
+         height: 4vh;
+         transition: 0.4s ease-in-out;
+         cursor: pointer;
+     
+     }
+
+}

@@ -1,0 +1,466 @@
+#Nav{
+   background: #e7f2fc;
+    position: sticky;
+    top:0;
+    display: flex;
+    padding: 1vh 0vh;
+    margin: auto;
+    width: 100%;
+    box-shadow: 1vh 1vh 3vh rgba(0, 0, 0, 0.417);
+    animation: start 2s ease-in-out 1;
+}
+@keyframes start {
+    0%{
+   transform: translateX(-100%);
+   /* transform: translateY(-100%);*/
+
+    }
+    100%{
+    transform: translateX(0%);
+    /*transform: translateY(0%);*/
+
+    }
+
+    
+}
+#Nav span{
+ 
+    background: transparent;
+    color: rgba(255, 255, 255, 0.158);
+    padding: 0vh 1vh;
+    font-family: sans-serif;
+    font-size: 5vh;
+    font-weight: 900;
+    letter-spacing:-0.5vh;
+    text-shadow: -0.5vh 0vh 0vh #007FFF;
+    
+}
+#Nav span:hover{
+    text-decoration: overline;
+}
+
+#Nav div{
+
+    padding: 0vh 0vh;
+    margin-left: 1vh;
+    transition: 0.2s ease-in-out;
+    
+
+    
+}
+
+#Nav div:nth-child(1){
+    
+}
+
+#Nav div:nth-child(2){
+    border: none;
+    margin-left:10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 1vh 5vh;
+    font-size: 3vh;
+}
+
+
+
+
+#Nav div:nth-child(3){
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 1vh 5vh;
+    font-size: 3vh;
+
+}
+
+#Nav div:nth-child(4){
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 1vh 5vh;
+    font-size: 4vh;
+
+}
+
+
+#Nav div:nth-child(5){
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 1vh 5vh;
+    font-size: 4vh;
+
+}
+
+#Nav div:nth-child(6){
+    margin-left:20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 1vh 5vh;
+    font-size: 4vh;
+
+}
+#Nav div:nth-child(6) input{
+    border: none;
+    padding: 1vh 2vh;
+    font-size: 2vh;
+    font-weight: 900;
+}
+#Nav div:nth-child(6) button{
+    background: transparent;
+    border: none;
+font-weight: 900;
+font-size: 4vh;
+padding: 0vh 1vh;
+color: white;
+
+}
+
+#Nav div:nth-child(7){
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 1vh 5vh;
+    font-size: 4vh;
+
+}
+
+#Nav div:nth-child(8){
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding: 1vh 5vh;
+    font-size: 4vh;
+
+}
+#profileimg{
+width: 5vh;
+height: 5vh;
+background: white;
+border-radius: 100%;
+}
+
+
+
+
+/* CSS */
+.button-29 {
+    background:#0080ff98;
+  align-items: center;
+  appearance: none;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+
+
+
+
+/**hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh/
+<!-- HTML !-->
+<button class="button-85" role="button">Button 85</button>
+
+/* CSS */
+.button-85 {
+
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color:black;
+    
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+
+  /*dhhhhhhhhhhhhhhhhhhhhh*/
+
+
+
+#ham{
+    display: none;
+    padding: 18vh 10vh;
+    width: 10vh;
+    position: absolute;
+    font-size: 6vh;
+}
+
+
+@media screen and (max-width: 1400px) {
+    #Nav{
+   
+        margin: auto;
+        width: 100%;
+        display:none;
+        animation: art 2s ease-in-out 1;
+        
+    }
+    @keyframes art {
+        0%{
+       transform: translateY(-100%);
+       /* transform: translateY(-100%);*/
+    
+        }
+        100%{
+        transform: translateY(0%);
+        /*transform: translateY(0%);*/
+    
+        }
+    }
+    #Nav div{
+        position:relative;
+        align-items: center;
+        padding: 0vh;
+        width: 100%;
+        
+
+        
+
+    }
+    @keyframes gg {
+        0%{
+
+        }
+        
+    }
+    #Nav div:nth-child(1){
+        display: none;
+        
+    }
+
+    #Nav div:nth-child(2){
+        font-size: 2vh;
+        margin: auto;
+        width: 70%;
+        color: black;
+
+
+        
+        
+       
+
+    }
+    #Nav div:nth-child(3){
+        color: black;
+        margin: auto;
+        width: 70%;
+        font-size: 2vh;
+
+
+    }
+    #Nav div:nth-child(4){
+        margin: auto;
+        width: 70%;
+        font-size: 2vh;
+        color: black;
+
+
+
+    }
+    #Nav div:nth-child(5){
+        margin: auto;
+        width: 70%;
+        font-size: 2vh;
+        color: black;
+
+
+
+    }
+    #Nav div:nth-child(6){
+        margin: auto;
+        width: 70%;
+        display: none;
+        font-size: 2vh;
+        color: black;
+
+
+       
+
+    }
+    #Nav div:nth-child(7){
+        margin: auto;
+        width: 70%;
+       
+        font-size: 2vh;
+        color: black;
+
+
+    }
+
+    #Nav div:nth-child(8){
+        margin: auto;
+        width: 50%;
+        font-size: 2vh;
+
+
+    }
+    #ham{
+        background:aliceblue;
+
+        position: static;
+        padding: 2vh 0vh;
+        width: 100%;
+        height: 4vh;
+        font-size: 4vh;
+        display: flex;
+        animation: art 2s ease-in-out 1;
+
+
+    }
+    #ham div{
+        
+        
+    }
+    #ham div:nth-child(1){
+        color: rgba(255, 255, 255, 0.158);
+        padding: 0vh 1vh;
+        font-family: sans-serif;
+        font-size: 3vh;
+        font-weight: 900;
+        letter-spacing:-0.1vh;
+        text-shadow: -0.5vh 0vh 0vh #007FFF;
+        
+    }
+    #ham div:nth-child(2){
+        display: flex;
+        margin: auto;
+        margin-left: 5%;
+        margin-top:-0vh;
+        padding: 0vh 2vh;
+        height: 5vh;
+        border:none;
+
+    }
+    #ham div:nth-child(2) button{
+
+    color: #007FFF;
+
+    background: transparent;
+    border: none;
+    font-weight: 900;
+    font-size: 3vh;
+    padding: 0vh 1vh;
+    }
+
+    #ham div:nth-child(2) input{
+        box-shadow: -1vh 0.5vh 0vh #007FFF;;
+
+        background: transparent;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    float: inline-end;
+        border: none;
+        padding: 0vh 0vh;
+        width: 20vh;
+        height: 5vh;
+        font-size: 2vh;
+        border: 1px solid gray;
+
+    }
+    #ham div:nth-child(3){
+        margin-left: 0%;
+        transition: 1s ease-in-out;
+
+    }
+}

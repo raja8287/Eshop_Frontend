@@ -1,0 +1,209 @@
+.adv{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 20rem;
+    cursor: pointer;
+    background:aliceblue;
+    margin-top: 3vh;
+
+
+}
+
+
+.adv button{
+    
+     background: rgba(99, 99, 255, 0.722);
+     color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+.adv button:hover {
+    color: white;
+    background: black;
+  }
+
+#advimg img{
+    align-items: center;
+    width: 50%;
+    height: 80%;
+
+}
+
+#advimg span{
+    display: inline-block;
+    width: 15px ;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#advimg span:hover{
+border: 0.2rem solid wheat;   
+width: 10px; 
+height: 10px;
+padding: 10px;
+}
+
+#advimg{
+    width: 70%;
+    height:80% ;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+#advdetail{
+    position: absolute;
+    width: 34%;
+    height: 45%;
+    margin-right: 55%;
+    font-size: 120%;
+    font-family: sans-serif;
+}
+#advdetail h2{
+   
+    background: -webkit-linear-gradient(right,#00a7d1,rgb(102, 97, 97),purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#advdetail b{
+    font-size: 12px;
+}
+
+#F{
+    background: black;
+}
+#T{
+    
+    background:rgb(236, 255, 168);
+}
+#TH{
+    
+    background:rgb(255, 15, 55);
+}
+#FO{
+    background:grey;
+}
+
+#adbtno{
+    margin-top: 20px;
+    border-radius: 0px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+#adbtno:hover{
+    background: black;
+    color: white;
+    
+}
+#adbtnt{
+    margin-top: 15px;
+}
+@media only screen and (max-width: 900px)  {
+    .adv{
+        margin-top: 10%;
+        margin-bottom: -8%;
+      }
+      #advimg{
+        font-size: 60%;
+        margin-left: 25%;
+      width: 75%;
+      height: 50%;
+      
+      }
+   
+      #advimg span{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        
+        padding: 8px;
+
+      }
+      #advimg span:hover{
+        border: 0.2rem solid wheat;   
+        width: 6.5px; 
+        height: 6.5px;
+        padding: 6.5px;
+        }
+
+      #advimg img{
+        position: relative;
+        width: 50%;
+        height: 40%;
+      
+      }
+
+      #advimg img:hover{
+    
+      }
+
+      #advdetail{
+      width:40%;
+      height: 40%;
+      margin-top: 6%;
+      }
+      #advdetail {
+        font-size: 90%;
+      }
+      #advdetail h2:hover{
+        background: -webkit-linear-gradient(right,black,rgb(74, 67, 67),purple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;      
+    
+    }
+    .adv button{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1400px) {
+    .adv{
+    margin-top: 3vh;
+    
+    }
+    #advimg{
+        width: 60%;
+        margin-left: 38%;
+    }
+
+    #advimg img{
+        height: 55%;
+    }
+    #advdetail{
+        float: left;
+        margin-right:60%;
+        width: 35%;
+        height: 35%;
+        font-size: 80%;
+    }
+    #adbtno{
+        background: white;
+        color: black;
+        box-shadow: 0vh 0vh 0vh black;
+
+        transition: 0.4s ease-in-out;
+
+    }
+    #adbtno:hover{
+        box-shadow: -1vh 1vh 0vh black;
+        border: 2px solid grey;
+
+    }
+}

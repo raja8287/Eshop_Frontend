@@ -1,0 +1,36 @@
+#Loading{
+    margin-top: 1vh;
+    margin-left:2vh ;
+    margin-right: 2vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#Loading p{
+    font-size: 10vh;
+animation: rott 3s ease-in-out infinite;
+width: 8%;
+border-radius:55%;
+padding: 10vh;
+height: 10%;
+margin: auto;
+}
+@keyframes rott {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 1400px) {
+    #Loading{
+
+    }
+    #Loading p{
+        font-size: 2vh;
+        padding:4vh;
+
+    }
+}

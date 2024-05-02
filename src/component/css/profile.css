@@ -1,0 +1,233 @@
+#Profile{
+  
+    margin-top: 3vh;
+    margin-left:2vh ;
+    margin-right: 2vh;
+    padding-bottom: 1vh;
+    margin-top:5vh;
+    animation: ar 2s ease-in-out 1;
+}
+
+#Profile h2{
+    word-spacing: -0.5vh;
+    letter-spacing: 0.4vh;
+}
+#Profile div{
+
+}
+
+#proimg{
+    background: #dbecfb;
+    margin: auto;
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+}
+#proimg img{
+    width: 25vh;
+   height: 20vh;
+   border-radius: 60%;
+   transition: 0.5s ease-in-out;
+
+}
+#proimg img:hover{
+    scale: 1.1;
+}
+
+#proimg p{
+    margin: auto;
+    width: 40%;
+    color:#007FFF;
+    text-shadow: -0.4vh 0vh 0vh aliceblue;
+    font-size: 5vh;
+    line-height: -20vh;
+    word-spacing: -0.0vh;
+    text-transform: uppercase;
+    letter-spacing:0.5vh;
+    font-weight: 700;
+}
+#proimg button{
+    text-transform: uppercase;
+    color:#1E90FF;
+    background: white;
+    padding: 1% 0%;
+    border: 1px solid black;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    margin-top: 3vh;
+    width: 15vh;
+    font-size: 2vh;
+    font-weight:900;
+    transition: 0.2s ease-in-out ;
+}
+#proimg button:hover{
+    
+    scale: 1.1;
+
+
+}
+#proimg button:active{
+
+    scale: 0.9;
+    box-shadow: -0.3vh .5vh 0vh #1E90FF;
+}
+#proad{
+
+    margin: auto;
+    display: flex;
+    background: #dbecfb;
+    width: 90%;
+    padding: 2vh 0vh;
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+#proad div{
+    
+    background: #1E90FF;
+    margin: auto;
+    transition: 0.2s ease-in-out ;
+
+}
+#proad div:hover{
+    scale: 0.9;
+    box-shadow: -0.3vh .5vh 0vh #1E90FF;
+}
+#proad div:active{
+    scale: 1.1;
+    box-shadow: -0.3vh .5vh 0vh #1E90FF;
+
+}
+#proad div:nth-child(1){
+    text-transform: uppercase;
+    color:#1E90FF;
+    background: white;
+    padding: 1% 0%;
+    border: 1px solid black;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    margin-top: 3vh;
+    width: 35vh;
+    font-size: 2vh;
+    font-weight:900;
+    transition: 0.2s ease-in-out ;
+
+}
+#proad div:nth-child(2){
+    background: white;
+    padding: 1% 0%;
+    border: 1px solid black;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    margin-top: 3vh;
+    width: 35vh;
+    transition: 0.2s ease-in-out;
+    font-size: 2vh;
+    font-weight: 600;
+
+}
+#proad div:nth-child(2) p:nth-child(1){
+    color:#1E90FF;
+    font-size: 2vh;
+    font-weight:900;
+    text-transform: uppercase;
+
+
+
+    
+}
+#proad div:nth-child(3){
+    text-transform: uppercase;
+    color:#1E90FF;
+    background: white;
+    padding: 1% 0%;
+    border: 1px solid black;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    margin-top: 3vh;
+    width: 35vh;
+    font-size: 2vh;
+    font-weight:900;
+    transition: 0.2s ease-in-out ;
+
+}
+#proad div:nth-child(4){
+    background: white;
+    padding: 1% 0%;
+    border: 1px solid black;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    margin-top: 3vh;
+    width: 35vh;
+    transition: 0.2s ease-in-out ;
+    font-size: 2vh;
+    font-weight: 600;
+
+}
+#proad div:nth-child(4) p:nth-child(1){
+    color:#1E90FF;
+    font-size: 2vh;
+    font-weight:900;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 1400px) {
+
+#Profile{
+    }
+#proimg{
+    width: 80%;
+
+}
+#proimg img{
+    width: 10vh;
+    height: 10vh;
+
+}
+#proimg p{
+    font-size: 2vh;
+    word-spacing: 0vh;
+    letter-spacing: 0vh;
+
+}
+#proimg button{
+    font-size: 1.5vh;
+    width: 10vh;
+    padding: 3% 0%;
+
+}
+#proad{
+    display: inline-block;
+    width: 95%;
+
+}
+#proad div:nth-child(1){
+    width: 50%;
+
+}
+#proad div:nth-child(1) p:nth-child(1){
+    font-size: 1.4vh;
+}
+#proad div:nth-child(2){
+    width: 60%;
+    line-height: 1vh;
+    font-size: 1.5vh;
+
+}
+#proad div:nth-child(2) p:nth-child(1){
+    font-size: 1.4vh;
+}
+#proad div:nth-child(3){
+    width: 50%;
+
+}
+#proad div:nth-child(3) p:nth-child(1){
+    font-size: 1.4vh;
+}
+#proad div:nth-child(4){
+    width: 80%;
+    font-size: 1.5vh;
+
+
+}
+#proad div:nth-child(4) p:nth-child(1){
+    font-size: 1.4vh;
+}
+
+}

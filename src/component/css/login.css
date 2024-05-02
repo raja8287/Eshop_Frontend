@@ -1,0 +1,128 @@
+#login{
+    background: rgb(221, 239, 254);
+    margin-top: 1vh;
+    margin-left:2vh ;
+    margin-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 10vh;
+    animation: tt 2s ease-in-out 1;
+
+}
+
+
+
+@keyframes tt {
+    0%{
+        transform: translateX(-100%);
+    }
+  
+    100%{
+        transform: translateX(0%);
+    }
+}
+#login div{
+    
+    border-radius: 5vh;
+    margin: auto;
+    width: 90vh;
+    height: 60vh;
+    transition: 0.4s ease-in-out;
+}
+#login div:hover{
+    box-shadow: -1vh 2vh 3vh black;
+    background: rgba(255, 255, 255, 0.296);
+    
+    scale: 1.02;
+
+}
+
+#login div h2{
+    letter-spacing: 1vh;
+    word-spacing: -1vh;
+    line-height:5vh;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:#007FFF;
+    text-shadow: -0.4vh 0vh 0vh aliceblue;
+}
+
+#login div input{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 2vh 2vh;
+    width: 15vw;
+    border-radius: 2vh;
+    border: none;
+    margin: 0.8vh;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    border: 1px solid black;
+    transition: 0.2s ease-in-out ;
+
+}
+#login div input:hover{
+    box-shadow: -0.5vh 1.5vh 1vh #1E90FF;
+    scale: 1.07;
+
+
+}
+
+#login div button{
+    transition: 0.2s ease-in-out ;
+}
+
+#login div button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: -0.5vh 1.5vh 1vh #1E90FF;
+
+
+}
+
+#login div p{
+    color: blue;
+    text-decoration: underline;
+    word-spacing: 0.5vh;
+    letter-spacing: 0.3vh;
+
+}
+
+@media screen and (max-width: 1400px) {
+    #login{
+    }
+    #login div{
+        width: 80%;
+        
+    }
+    #login div h2{
+        font-size: 3vh;
+        line-height: 4vh;
+        letter-spacing: 0vh;
+        word-spacing: 0.5vh;
+        text-shadow: -0.2vh 0vh 0vh aliceblue;
+
+    }
+    #login div input{
+        border-radius: 0vh;
+        width: 80%;
+        font-size: 1vh;
+    }
+    #login div button{
+        font-size: 1vh;
+        width: 30%;
+    }
+    #login div p{
+        color: black;
+        font-size: 1.4vh;
+        letter-spacing: 0vh;
+        line-height: 5vh;
+        word-spacing:0.5vh;
+        
+    }
+    #login div b{
+        font-size: 1.5vh;
+        text-shadow: -0.2vh 0vh 0vh aliceblue;
+
+
+    }
+
+}

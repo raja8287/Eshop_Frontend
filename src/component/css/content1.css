@@ -1,0 +1,245 @@
+#Content{
+   background: rgb(231, 244, 255);
+    padding: 5vh 0vh;
+    margin: auto;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap:wrap;
+    gap:10vh 5vh;
+    animation: tt 2s ease-in-out 1;
+
+}
+
+#alertmsg{
+    position: sticky;
+    top:0;
+    width: 50%;
+    margin: auto;
+    padding: 1vh;
+    animation: tcar 1s ease-in-out 1;
+    display: none;
+    font-size: 3vh;
+    font-weight: 700;
+    border: 2px solid greenyellow;
+    background: rgba(172, 255, 47, 0.091);
+
+
+}
+#gh{
+    margin: auto;
+    width: 90%;
+    color: black;
+}
+#alertmsg p:nth-child(2){
+    width: 20%;
+    color: greenyellow;
+    margin: auto;
+     animation: jump 2s ease-in-out infinite;
+
+}
+@keyframes jump {
+    0%{
+        scale: 0.9;
+
+    }
+    50%{
+        scale: 1.5;
+    }
+   
+    100%{
+        scale: 0.9;
+    }
+}
+@keyframes tt {
+    0%{
+        transform: translateX(100%);
+    }
+  
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes tcar {
+    0%{
+        transform: translateX(-50%);
+    }
+  
+    100%{
+        transform: translateX(0%);
+    }
+}
+#con{
+    box-shadow: 0vh 0vh 0.8vh black;
+    transition: 0.6s ease-in-out;
+    border-radius: 0vh;
+    
+}
+#con:hover{
+    cursor: pointer;
+    scale: 1.1;
+
+
+
+}
+
+
+#Content div{
+    margin: auto;
+    
+    background:white;
+    width: 20%;
+    height: 50vh;
+    
+    padding: 2vh 0vh;
+    padding-bottom: 1vh;
+}
+#Content div div{
+    
+    width: 30vh;
+    height: 10vh;
+    font-size: 2vh;
+    text-overflow: ellipsis;
+}
+
+#Content div div:nth-child(1){
+    padding: 2vh 0vh;
+    width: 90%;
+
+}
+#Content div div:nth-child(1) img{
+    width: 12vh;
+    height: 12vh;
+}
+
+#Content div div:nth-child(2){
+    margin: auto;
+    word-spacing: -0.3vh;
+    font-size: 1.7vh;
+    line-height: -0vh;
+height: 4vh;
+
+    
+    width: 90%;
+    
+    
+}
+#Content div div:nth-child(3){
+    font-size: 1.5vh;
+    width: 85.5%;
+    height: 8vh;
+    padding: 1vh;
+    display: flex;
+    gap: 2vh;
+    margin: auto;
+    word-spacing: -0.2vh;
+    
+}
+
+#Content div div:nth-child(4){
+    
+    width: 90%;
+    height: 4vh;
+    line-height: 0vh;
+    font-size: 2.5vh;
+
+    font-weight: 900;
+}
+
+#Content div div:nth-child(5){
+    width: 100%;
+    
+}
+#Content div div:nth-child(5) button{
+    border: none;
+  padding: 10% 0%;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: #1E90FF;
+  color: white;
+}
+@media screen and (max-width: 1400px) {
+    #Content{
+
+        gap:5vh 5vh;
+
+    }
+    #alertmsg{
+        font-size: 1.7vh;
+    }
+    #con{
+    }
+
+    #Content div{
+        width: 40vh;
+        height: 50vh;
+
+    }
+    #Content div:hover{
+        scale: 1;;
+    }
+    #Content div div{
+    }
+
+    #Content div div:nth-child(1){
+        width: 90%;
+
+    }
+    
+    #Content div div:nth-child(1) img{
+        
+        width: 15vh;
+        height: 15vh;
+    
+    }
+    #Content div div:nth-child(2){
+        
+    }
+    
+    #Content div div:nth-child(3) {
+        
+        height: 4vh;
+        
+    }
+    #Content div div:nth-child(4) {
+        height: 2vh;
+        width: 60%;
+    }
+    #Content div div:nth-child(4) p{
+        text-decoration: underline;
+        color: rgba(0, 0, 0, 0.737);
+        text-shadow:-0.2vh 0vh 0vh rgb(218, 238, 255);
+
+
+    }
+    #Content div div:nth-child(4) span{
+        
+        font-size: 2vh;
+        color: orange;
+    }
+    #Content div div:nth-child(5) button{
+        
+        box-shadow: -1vh 1vh 0vh #1E90FF;
+        padding: 5% 0%;
+        border: 1px solid black;
+        margin-top: 3vh;
+        width: 18vh;
+        font-size: 1vh;
+        font-weight:900;
+
+    }
+    #Content div div:nth-child(5){
+        margin-top: 5vh;
+        padding-top: 0vh;
+    }
+
+    #Content div div:nth-child(5) button:active{
+        background: #1e8fffc9;
+        scale: 0.98;
+
+
+    }
+    
+
+}

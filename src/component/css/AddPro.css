@@ -1,0 +1,149 @@
+#AddPro{
+    background: rgb(221, 239, 254);
+    margin-top: 1vh;
+    margin-left:2vh ;
+    margin-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 10vh;
+    animation: tt 2s ease-in-out 1;
+}
+#AddPro div{
+    margin: auto;
+    width: 90vh;
+    transition: 0.4s ease-in-out;
+    border-radius: 5vh;
+
+    
+}
+
+#AddPro div:hover{
+    box-shadow: -1vh 2vh 3vh black;
+    background: rgba(255, 255, 255, 0.296);
+    scale: 1.02;
+}
+
+#AddPro div img{
+    width: 20vh;
+    height: 15vh;
+    background: transparent;
+
+}
+
+#AddPro div h2{
+    font-size: 2vh;
+    text-transform: uppercase;
+
+}
+#singbtn{
+    color:#1E90FF;
+    background: white;
+    padding: 2% 0%;
+    border: 1px solid black;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    margin-top: 3vh;
+    width: 7vh;
+    font-size: 2vh;
+    font-weight:900;
+    transition: 0.2s ease-in-out ;
+
+}
+#singbtn:active{
+    scale: 0.9;
+    box-shadow: -0.3vh .5vh 0vh #1E90FF;
+
+
+}
+#AddPro div input{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 2vh 2vh;
+    width: 25vw;
+    border-radius: 0vh;
+    border: none;
+    margin: 0.8vh;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    border: 1px solid black;
+    transition: 0.2s ease-in-out ;
+
+}
+
+#AddPro div input:hover{
+    box-shadow: -0.5vh 1.5vh 1vh #1E90FF;
+    scale: 1.07;
+}
+
+.button-8{
+    color: white;
+    background: #1E90FF;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    padding: 2% 0%;
+    border: 1px solid black;
+    margin-top: 3vh;
+    width: 20vh;
+    font-size: 2vh;
+    font-weight:900;
+    transition: 0.2s ease-in-out ;
+    cursor: pointer;
+
+
+}
+
+.button-8:active{
+    scale: 0.9;
+    box-shadow: -0.3vh .5vh 0vh #1E90FF;
+
+
+
+}
+
+@media screen and (max-width: 1400px) {
+    #AddPro{
+
+    }
+    #AddPro div{
+        width: 90%;
+    }
+    #AddPro div:hover{
+        box-shadow: -1vh 2vh 3vh black;
+        background: rgba(255, 255, 255, 0.296);
+        scale: 1;
+    }
+    
+    #AddPro div img{
+        width: 8vh;
+        height: 8vh;
+        background: transparent;
+    
+    }
+   
+    #singbtn:active{
+        scale: 0.9;
+    
+    }
+    #AddPro div input{
+        width: 60%;
+    
+    }
+    
+    #AddPro div input:hover{
+        box-shadow: -0.5vh 1.5vh 1vh #1E90FF;
+        scale: 1.07;
+    }
+    
+    .button-8{
+        width: 15vh;
+        font-size: 1.5vh;
+    }
+
+    #AddPro div p{
+        font-size: 1.5vh;
+
+
+    }
+
+    #AddPro div b{
+        font-size: 1.5vh;
+
+    }
+
+}

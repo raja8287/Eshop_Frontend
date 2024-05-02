@@ -1,0 +1,284 @@
+#Footer{
+    
+    background: #e7f2fc;
+    margin-top: 3vh;
+    padding-bottom: 1vh;
+    margin-top:5vh;
+    animation: ar 2s ease-in-out 1;
+
+    
+}
+
+@keyframes ar {
+    0%{
+   transform: translateY(100%);
+   /* transform: translateY(-100%);*/
+
+    }
+    100%{
+    transform: translateY(0%);
+    /*transform: translateY(0%);*/
+
+    }
+
+    
+}
+
+#Footer div:nth-child(1){
+    margin: auto;
+    display: flex;
+    width: 90%;
+    
+   
+}
+#footer1 #foo1{
+    width: 25%;
+    height: 30vh;
+    padding: 8vh;
+    display: inline-block;
+}
+#footer1 #foo1 span{
+    
+    background: transparent;
+    color: rgba(255, 255, 255, 0.158);
+    padding: 0vh 1vh;
+    font-family: sans-serif;
+    font-size: 8vh;
+    font-weight: 900;
+    letter-spacing:-0.5vh;
+    text-shadow: -0.5vh 0vh 0vh #007FFF;
+}
+#footer1 #foo1 p{
+    font-family: sans-serif;
+
+}
+
+#footer1 #foo2{
+    display: inline-block;
+    width: 35%;
+    
+}
+#footer1 #foo2 p{ 
+    font-size: 3vh;
+    line-height: 0vh;
+    word-spacing: -0.5vh;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#footer1 #foo2 input{
+    padding: 2vh 5vh;
+    width: 15vw;
+    border-radius: 2vh;
+    border: none;
+    margin: 0.8vh;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    border: 1px solid black;
+
+}
+#footer1 #foo3{
+    background: transparent;
+    width: 40%;
+    height: 20vh;
+}
+#footer1 #foo3 div:nth-child(1){
+    margin: auto;
+    justify-content:center;
+    height: 100%;
+    font-size: 10vh;
+    width: 100%;
+
+}
+
+#footer1 #foo3 div:nth-child(2){
+    height:90%;
+    width:90%;
+    padding:4vh;
+    justify-content:center;
+    margin: auto;
+    font-size: 2.5vh;
+    
+
+}
+#footer1 #foo3 div:nth-child(2) p{
+    width: 100%;
+    color: #007FFF;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-shadow: -0.1vh 0vh 0vh #007FFF;
+
+    
+}
+
+#footer2{
+    color: #007FFF;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-shadow: -0.1vh 0vh 0vh #007FFF;
+}
+.button-8{
+    color: white;
+    background: #1E90FF;
+    box-shadow: -1vh 1vh 0vh #1E90FF;
+    padding: 2% 0%;
+    border: 1px solid black;
+    margin-top: 3vh;
+    width: 20vh;
+    font-size: 2vh;
+    font-weight:900;
+
+}
+
+.button-85 {
+
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color:black;
+    
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 1400px) {
+    #Footer{
+    }
+    #Footer div:nth-child(1){
+        display: inline-block;
+        padding:1vh 0vh ;
+
+        
+    }
+    #Footer div{
+        margin-top: 0vh;
+    }
+    #footer1 #foo1{
+
+
+        width: 40%;
+        height: 5vh;
+        line-height: 2vh;
+    }
+    #footer1 #foo1 span{
+
+        font-size: 3vh;
+        letter-spacing:0.01vh;
+    }
+    
+    #footer1 #foo1 p{
+        line-height: 1.3vh;
+        font-size: 1.2vh;
+
+    }
+    #footer1 #foo2{
+
+        width: 90%;
+        height: 35vh;
+        
+    }
+    #footer1 #foo2 input{
+        font-size: 1vh;
+        padding: 2vh 2vh;
+        width: 20vh;
+    }
+    #footer1 #foo2 p{
+        text-transform: uppercase;
+        font-size: 1.5vh;
+        word-spacing: 0.3vh;
+        letter-spacing: -0.05vh;
+    }
+
+    #footer1 #foo2 button{
+        padding: 1vh;
+        width: 15vh;
+        margin-top: 2vh;
+        font-size: 1.4vh;
+
+    }
+   
+#footer1 #foo3{
+    margin-top: 1vh;
+
+    width: 100%;
+
+    
+    
+}
+#footer1 #foo3 div:nth-child(1){
+    font-size: 5vh;
+    width: 100%;
+    height: 5vh;
+}
+
+#footer1 #foo3 div:nth-child(2){
+    
+    width: 80%;
+    font-size: 1.2vh;
+    font-weight: 600;
+    height: 5vh;
+
+
+    
+    
+
+}
+#footer2{
+    font-size: 1.2vh;
+    font-weight: 600;
+}
+  }
